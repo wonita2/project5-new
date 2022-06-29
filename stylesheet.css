@@ -1,0 +1,73 @@
+form{
+    width:300px;
+    position: relative;
+    top:0px;
+    left:500px;
+    border: rgb(238, 223, 235) solid 5px ;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+    
+}
+    
+
+    
+
+input{
+    width : 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    
+}
+
+textarea{
+    resize: vertical;
+    max-height: 200px;
+    
+}
+
+input, textarea {
+    outline: none;
+    border:1px solid;
+    
+}
+body{
+    background-color: darkgray;
+}
+.signup-btn{
+    border: rgb(36, 235, 36) 2px solid;
+    width:100px;
+    height:fit-content;
+    background-color: rgb(7, 247, 7);
+  
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ol { counter-reset: item; }
+ol li { display: block; }
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: black;
+border-style:solid;
+border-radius: 20px;
+padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(17, 248, 17);
+}
+    
+    
+   
+   
